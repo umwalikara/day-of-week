@@ -4,39 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>calculates day of the week</title>
+    <title>Akan Name</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <script src="js/calc.js"></script>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card">
-                    <div class="card-body">
-                    <h2>calculates the day of the week you were born:</h2>
-                    <!-- <p>The form below contains two input elements; one of type text and one of type password:</p> -->
-                    <form action="action_page">
-                    <div class="form-group">
-                        <label for="dob">Date of Birth:</label>
-                        <input type="date" class="form-control" id="bd" name="birthdate">
-                    </div>
-                    <div class="form-group">
-                        <label for="sel1">Gender:</label>
-                        <select class="form-control" id="gndr" name="sellist1">
-                            <option>Choose...</option>
-                            <option>female</option>
-                            <option>Male</option>
-                        </select>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Submit</button>
-                    </form>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="jumbotron">
+                <h1 class="display-4">Akan Name!</h1>
+                <p class="lead">Akan names are derived from Ghanian culture.
+                     Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born</p>
+                <hr class="my-4">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-7">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h2>Type your Addres:</h2>
+                                    <form action="action_page">
+                                        <div class="form-group">
+                                            <label>Birthdate:</label>
+                                            <input type="date" class="form-control" id="bd" name="birthdate">
+                                        </div>
+                                        <div class="form-group">
+                                            <label>Gender:</label>
+                                            <select class="form-control" id="gndr" name="gender">
+                                                <option>Choose...</option>
+                                                <option>female</option>
+                                                <option>Male</option>
+                                            </select>
+                                        </div>
+                                        <button type="button" class="btn btn-primary" onclick="address()">submit</button>
+                                        <p id="day"></p>
+                                        <p id="name"></p>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
+        </div>
     </div>
 </body>
 </html>
