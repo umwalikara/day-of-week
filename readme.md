@@ -5,10 +5,11 @@
 this application will help the users to know the day they were born , when they entered their date of birth.also it will help them to display the name according to their gender.
 ## Setup/Installation Requirements
 * Go to your browser...
-* enter this link: file:///home/wecode/Documents/friday-project/day-of-week/index.html
+* enter this link:
 * then after,it shows you the form which help you to enter your address,
 * after entered your address required, click the button bellow called submit.
-* then you will get the result of information you entered bellow that button(submit)
+* then you will get the result of information you entered bellow that button(submit).
+
 ## Technologies Used
 this is a web application designed using bootstrap, css and JavaScript.
 ## Support and contact details
