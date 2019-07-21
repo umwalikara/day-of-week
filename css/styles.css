@@ -1,7 +1,15 @@
-.card{
-    background-color: rgb(229, 226, 226);
+html{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("http://ghanaculturepolitics.com/wp-content/uploads/2016/03/grace.png");
 }
 body{
-    padding-top: 300px;
+    padding-top: 30px;
     margin-left: 300px;
+    margin-right: 200px;
+} 
+.jumbotron{
+    background-color: rgb(161, 155, 165);
+}
+.card{
+    background-color: rgba(243, 243, 243, 0.979);
+    margin-left: 200px;
 }
