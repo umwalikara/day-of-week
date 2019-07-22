@@ -5,11 +5,14 @@
 this application will help the users to know the day they were born , when they entered their date of birth.also it will help them to display the name according to their gender.
 ## Setup/Installation Requirements
 * Go to your browser...
-* enter this link:
+* enter this link:https://umwalikara.github.io/day-of-week/
 * then after,it shows you the form which help you to enter your address,
 * after entered your address required, click the button bellow called submit.
 * then you will get the result of information you entered bellow that button(submit).
-
+##Behavior Driven Development
+*Input:-enter your birthday date and choose your gender, 
+       -then after click on submit button...
+*Output: after you submit, it displays the day you were born and get the corresponding akan names.
 ## Technologies Used
 this is a web application designed using bootstrap, css and JavaScript.
 ## Support and contact details
